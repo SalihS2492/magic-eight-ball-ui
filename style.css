@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .magic-8-ball {
+    background-color: #009688;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0 0 20px 0;
+  }
+  
+  .answer-section {
+    background-color: #004d40;
+    min-height: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .question-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  /*Button Formatting*/
+  .question-section button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #00695c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /*Changes background color of button upon hover*/
+  .question-section button:hover {
+    background-color: #004d40;
+  }
+  
+  .magic-8-ball img {
+    max-width: 100%;
+    /* makes sure image is not wider than the container */
+    height: auto;
+    /* maintains the aspect ratio */
+    display: block;
+    /* removes any inline extra space */
+    margin: 0 auto;
+    /* centers image horizontally */
+    margin-bottom: 20px;
+    /* adds space below the image */
+  }
